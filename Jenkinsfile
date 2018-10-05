@@ -16,7 +16,8 @@
  * SPDX-License-Identifier: Apache-2.0
  ******************************************************************************/
 
-@Library('skymind@bugfix/ppc64-docker') _
+// @Library('skymind@bugfix/ppc64-docker') _
+@Library('skymind@feature/add-cuda-10-support') _
 
 /*
     To redefine some job/run parameters,
